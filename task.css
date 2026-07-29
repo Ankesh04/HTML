@@ -46,6 +46,9 @@ input, select {
     padding: 8px;
     margin-top: 5px;
 }
+.same{
+    display:flex;
+}
 
 .row {
     display: flex;
