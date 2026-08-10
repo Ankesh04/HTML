@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>
+                <h1>Registration Form</h1>
+            </legend>
+
+            <div>
+                <label for="fullname"><b>Enter Full Name</b></label><br>
+                <input name="fullname" id="fullname" type="text" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="username"><b>Enter Username</b></label><br>
+                <input name="username" id="username" type="text" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email"><b>Enter your Email</b></label><br>
+                <input name="email" id="email" type="email" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="password"><b>Enter Password</b></label><br>
+                <input name="password" id="password" type="password" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="confirm-password"><b>Confirm Password</b></label><br>
+                <input name="confirm-password" id="confirm-password" type="password" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="phoneno"><b>Phone Number</b></label>
+                <br>
+                <select name="countrycode">
+                    <option value="+91">India +91</option>
+                    <option value="+1">US +1</option>
+                    <option value="+44">UK +44</option>
+                    <option value="+7">Russia +7</option>
+                </select>
+
+                <input name="phoneno" id="phoneno" type="tel" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="dob"><b>Date of Birth</b></label><br>
+                <input name="dob" id="dob" type="date" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label><b>Gender</b></label><br>
+
+                <input name="gender" id="male" type="radio" value="male">
+                <label for="male">Male</label>
+
+                <input name="gender" id="female" type="radio" value="female">
+                <label for="female">Female</label>
+            </div>
+
+            <br>
+            <button type="submit">
+                <b>Register</b>
+            </button>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
