@@ -4,88 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
+    <title>Document</title>
 </head>
 
 <body>
 
     <form action="">
         <fieldset>
+
             <legend>
                 <h1>Registration Form</h1>
             </legend>
 
-            <div>
-                <label for="fullname"><b>Enter Full Name</b></label><br>
-                <input name="fullname" id="fullname" type="text" required>
-            </div>
+            <table border="1">
 
-            <br>
+                <tr>
+                    <td>
+                        <label for="fullname"><b>Name</b></label>
+                        <br>
+                        <label for="username"><b>Username</b></label>
+                        <br>
+                        <label for="email"><b>Email</b></label>
+                        <br>
+                        <label for="password"><b>Password</b></label>
+                        <br>
+                        <label for="confirm-password"><b>Confirm Password</b></label>
+                    </td>
 
-            <div>
-                <label for="username"><b>Enter Username</b></label><br>
-                <input name="username" id="username" type="text" required>
-            </div>
+                    <td>
+                        <input name="fullname" placeholder="Enter Full Name" id="fullname" type="text" required>
+                        <br>
+                        <input name="username" placeholder="Enter Username" id="username" type="text" required>
+                        <br>
+                        <input name="email" id="email" placeholder="Enter your Email" type="email" required>
+                        <br>
+                        <input name="password" placeholder="Enter your Password" id="password" type="password" required>
+                        <br>
+                        <input name="confirm-password" placeholder="Enter to confirm-password" id="confirm-password"
+                            type="password" required>
+                    </td>
+                </tr>
 
-            <br>
 
-            <div>
-                <label for="email"><b>Enter your Email</b></label><br>
-                <input name="email" id="email" type="email" required>
-            </div>
+                <tr>
+                    <td>
+                        <label for="phoneno"><b>Phone Number</b></label>
+                        <br>
+                        <label for="dob"><b>Date of Birth</b></label>
+                    </td>
 
-            <br>
+                    <td>
+                        <select name="countrycode">
+                            <option value="+91">India +91</option>
+                            <option value="+1">US +1</option>
+                            <option value="+44">UK +44</option>
+                            <option value="+7">Russia +7</option>
+                        </select>
 
-            <div>
-                <label for="password"><b>Enter Password</b></label><br>
-                <input name="password" id="password" type="password" required>
-            </div>
+                        <input name="phoneno" id="phoneno" type="tel" required>
 
-            <br>
+                        <br>
 
-            <div>
-                <label for="confirm-password"><b>Confirm Password</b></label><br>
-                <input name="confirm-password" id="confirm-password" type="password" required>
-            </div>
+                        <input name="dob" id="dob" type="date" required>
+                    </td>
+                </tr>
 
-            <br>
 
-            <div>
-                <label for="phoneno"><b>Phone Number</b></label>
-                <br>
-                <select name="countrycode">
-                    <option value="+91">India +91</option>
-                    <option value="+1">US +1</option>
-                    <option value="+44">UK +44</option>
-                    <option value="+7">Russia +7</option>
-                </select>
+                <tr>
+                    <td>
+                        <label><b>Gender</b></label>
+                    </td>
 
-                <input name="phoneno" id="phoneno" type="tel" required>
-            </div>
+                    <td>
+                        <input name="gender" id="male" type="radio" value="male">
+                        <label for="male">Male</label>
 
-            <br>
+                        <input name="gender" id="female" type="radio" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
 
-            <div>
-                <label for="dob"><b>Date of Birth</b></label><br>
-                <input name="dob" id="dob" type="date" required>
-            </div>
 
-            <br>
+                <tr>
 
-            <div>
-                <label><b>Gender</b></label><br>
+                    <td>
+                        <button type="submit">
+                            <b>Register</b>
+                        </button>
+                    </td>
+                </tr>
 
-                <input name="gender" id="male" type="radio" value="male">
-                <label for="male">Male</label>
-
-                <input name="gender" id="female" type="radio" value="female">
-                <label for="female">Female</label>
-            </div>
-
-            <br>
-            <button type="submit">
-                <b>Register</b>
-            </button>
+            </table>
 
         </fieldset>
     </form>

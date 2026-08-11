@@ -13,7 +13,7 @@
             <legend>
                 <h1>Registration Form</h1>
             </legend>
-            <table>
+            <table border="1">
                 <tr>
                     <td>
                         <label for="name"><b>Name</b></label>
@@ -30,26 +30,22 @@
                         <input name="pasword" placeholder="Enter you password" id="password" type="password" required>
                     </td>
                 </tr>
-
-                <tr>
-                    <label><b>Gender</b></label><br>
-
-                    <input name="gender" id="male" type="radio" value="male">
-                    <label for="male">Male</label>
-
-                    <input name="gender" id="female" type="radio" value="female">
-                    <label for="female">Female</label>
-
-                    <input name="gender" id="others" type="radio" value="others">
-                    <label for="female">Others</label>
-                </tr>
                 <tr>
                     <td>
+                        <label><b>Gender</b></label>
+                        <br>
                         <label for="dob"><b>Date of Birth</b></label>
                         <br>
-                        <label for=""><b>Skills</b></label><br>
+                        <label for=""><b>Skills</b></label>
                     </td>
                     <td>
+                        <input name="gender" id="male" type="radio" value="male">
+                        <label for="male">Male</label>
+                        <input name="gender" id="female" type="radio" value="female">
+                        <label for="female">Female</label>
+                        <input name="gender" id="others" type="radio" value="others">
+                        <label for="others">Others</label>
+                        <br>
                         <input name="dob" id="dob" type="date" required>
                         <br>
                         <label for="">HTML</label>
@@ -58,20 +54,17 @@
                         <input type="checkbox" name="css">
                         <label for="">JS</label>
                         <input type="checkbox" name="js">
+                        <br>
                     </td>
                 </tr>
                 <tr>
-                    <td>
-
-                    </td>
+                    <td></td>
+                    <td><input type="checkbox" name="TERMS & CONDITIONS" required>
+                        I agree with <a href="/ninth.html">terms and conditions</a></td>
                 </tr>
-                <div>
-
-
-                </div><br>
-                <input type="checkbox" name="TERMS & CONDITIONS" required> I agree with <a href="/ninth.html">terms and
-                    conditions</a>.
-                <div><button type="submit">Register</button></div>
+                <tr>
+                    <td><button type="submit">Register</button></td>
+                </tr>
             </table>
         </fieldset>
     </form>

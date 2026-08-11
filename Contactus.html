@@ -1,40 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
+<form action="">
+    <fieldset>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-</head>
+        <legend>
+            <h1>Contact Form</h1>
+        </legend>
 
-<body>
-    <form action="">
-        <fieldset>
-            <legend>
-                <h1>Contact US</h1>
-            </legend>
+        <table border="1">
 
-            <div>
-                <label for="name"><b>Name</b></label><br>
-                <input name="name" id="name" type="text" required>
-            </div>
+            <tr>
+                <td>
+                    <label for="name"><b>Name</b></label>
+                    <br>
+                    <label for="email"><b>Email</b></label>
+                    <br>
 
-            <div>
-                <label for="email"><b>Email</b></label><br>
-                <input name="email" id="email" type="email" required>
-            </div>
+                </td>
 
-            <div>
-                <label for="message"><b>Message</b></label><br>
-                <textarea name="message" id="message" rows="5" cols="30" required></textarea>
-            </div>
+                <td>
+                    <input name="name" id="name" type="text" required>
+                    <br>
+                    <input name="email" id="email" type="email" required>
+                    <br>
 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="message"><b>Message</b></label>
+                </td>
+                <td>
+                    <textarea name="message" id="message" rows="5" cols="30" required></textarea>
+                </td>
+            </tr>
 
-            <button type="submit"><b>Send Message</b></button>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">
+                        <b>Send Message</b>
+                    </button>
+                </td>
+            </tr>
 
-        </fieldset>
-    </form>
+        </table>
 
-</body>
-
-</html>
+    </fieldset>
+</form>
