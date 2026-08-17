@@ -1,0 +1,92 @@
+ body {
+     margin: 0;
+     font-family: Arial;
+     background-color: #0f0f0f;
+     color: white;
+ }
+
+
+ /* HEADER */
+
+ header {
+     padding: 15px;
+     border-bottom: 1px solid #333;
+ }
+
+ .logo {
+     color: white;
+     font-size: 25px;
+     font-weight: bold;
+ }
+
+ .logo-yt {
+     width: 35px;
+     height: 35px;
+ }
+
+ .search {
+     width: 400px;
+     padding: 10px;
+     margin-left: 100px;
+     background-color: #121212;
+     color: white;
+     border: 1px solid #555;
+     border-radius: 20px;
+ }
+
+
+ /* LEFT MENU */
+ .menu p {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+ }
+
+ .material-symbols-outlined {
+     font-size: 24px;
+ }
+
+ .menu {
+     width: 180px;
+     float: left;
+     padding: 20px;
+ }
+
+ .menu p {
+     padding: 10px;
+ }
+
+
+ /* VIDEOS */
+
+ .videos {
+     margin-left: 230px;
+     padding: 20px;
+ }
+
+ .video {
+     display: inline-block;
+     width: 300px;
+     margin: 10px;
+     vertical-align: top;
+ }
+
+
+ /* VIDEO IMAGE */
+
+ .thumbnail {
+     width: 250px;
+     height: 140px;
+     border-radius: 8px;
+     object-fit: cover;
+ }
+
+
+ .video h3 {
+     font-size: 16px;
+ }
+
+ .video p {
+     color: #aaa;
+     font-size: 14px;
+ }

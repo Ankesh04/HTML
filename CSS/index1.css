@@ -1,0 +1,198 @@
+body {
+            font-family: 'Inter', sans-serif; /* A nice, clean font for the whole page */
+            background-color: #f0f2f5;        /* Light grey background for the page */
+            display: flex;                    /* These three lines help center all the cards */
+            flex-direction: column;
+            align-items: center;
+            gap: 60px;                        /* Adds space between each card */
+            padding: 40px 20px;               /* Adds space on the top/bottom and sides of the page */
+        }
+        
+        /* A general card style to remove repetition */
+        .card {
+            background-color: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            max-width: 450px;
+            width: 100%;
+            box-sizing: border-box; /* Makes sure padding doesn't add to the width */
+            overflow: hidden; /* Hides anything that goes outside the rounded corners */
+        }
+
+
+        /* * 1. WAZE BUSINESS DEVELOPMENT CARD
+        */
+        .waze-card {
+            background-color: #1EE592; /* The bright green background */
+            padding: 50px;
+        }
+
+        .waze-card h2 {
+            font-size: 3.5rem; /* rem is a modern unit for font size */
+            font-weight: 700;
+            color: #000;
+            margin-top: 0;
+            margin-bottom: 20px;
+            line-height: 1.1; /* Makes the lines of text closer together */
+        }
+
+        .waze-card p {
+            font-size: 1.1rem;
+            color: #000;
+            margin-bottom: 40px;
+        }
+
+        .waze-card .button {
+            background-color: #fff;
+            color: #000;
+            padding: 16px 32px;
+            text-decoration: none; /* Removes the underline from the link */
+            border-radius: 50px; /* Makes the button a pill shape */
+            font-weight: 700;
+        }
+
+        /* * 2. GOOGLE PHOTOS CARD
+        */
+        .google-photos-card img {
+            width: 100%;       /* Make the image fill the width of the card */
+            display: block;    /* Removes extra space below the image */
+        }
+
+        .google-photos-card .content {
+            padding: 24px;
+        }
+        
+        .google-photos-card .subscribe-text {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #5f6368; /* A dark grey color */
+            margin-bottom: 8px;
+            letter-spacing: 0.5px; /* Spreads out the letters a bit */
+        }
+        
+        .google-photos-card h3 {
+            font-size: 1.5rem;
+            color: #202124;
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        
+        .google-photos-card p {
+            color: #5f6368;
+            line-height: 1.5;
+            margin-bottom: 24px;
+        }
+
+        .google-photos-card .button {
+            display: inline-block; /* Allows padding and other styles */
+            color: #1a73e8; /* Google's blue color */
+            padding: 8px 24px;
+            text-decoration: none;
+            border: 1px solid #dadce0; /* A light grey border */
+            border-radius: 8px;
+            font-weight: 500;
+        }
+        
+        /* * 3. FLODESK LOGIN PAGE
+         * This uses the .card style but has a white background by default
+        */
+        .flodesk-login {
+            text-align: center; /* Center all the text and items inside */
+            padding: 50px 30px;
+        }
+        
+        .flodesk-login .logo {
+            font-family: 'Playfair Display', serif; /* A fancy font for the logo */
+            font-size: 2.5rem;
+            color: #000;
+            margin-bottom: 20px;
+        }
+        
+        .flodesk-login .welcome-text {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        .flodesk-login input {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box; /* Makes sure padding is inside the width */
+            font-size: 1rem;
+        }
+        
+        .flodesk-login .button {
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 15px;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer; /* Shows a hand icon when you hover */
+            margin-top: 15px;
+        }
+        
+        .flodesk-login .links {
+            margin-top: 30px;
+            font-size: 0.9rem;
+        }
+        
+        .flodesk-login .links a {
+            color: #333;
+            text-decoration: underline;
+        }
+        
+        .flodesk-login .footer-text {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #888;
+        }
+
+        /* * 4. GOOGLE PROFILES CARD
+        */
+        .profiles-card .top-section {
+            padding: 24px;
+        }
+        
+        .profiles-card h3 {
+            font-size: 1.75rem;
+            color: #3c4043;
+            margin-top: 0;
+            margin-bottom: 8px;
+            font-weight: 400; /* Regular font weight */
+        }
+        
+        .profiles-card .description {
+            color: #5f6368;
+            font-size: 1rem;
+            margin-bottom: 24px;
+        }
+        
+        .profiles-card .profile-pics {
+            display: flex; /* Puts the images side-by-side */
+            gap: 20px;     /* Adds space between the images */
+        }
+        
+        .profiles-card .profile-pics img {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%; /* Makes the images perfectly round */
+        }
+        
+        .profiles-card hr {
+            border: none;
+            border-top: 1px solid #e0e0e0; /* A thin, light grey line */
+            margin: 0;
+        }
+        
+        .profiles-card .bottom-link {
+            display: block; /* Makes the link take up the full width */
+            padding: 16px 24px;
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: 500;
+        }
