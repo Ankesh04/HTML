@@ -1,0 +1,24 @@
+* {
+    height: 10px;
+    margin: 10px 0px;
+}
+
+#div1 {
+    background-color: yellow;
+    width: 5in;
+}
+
+#div2 {
+    background-color: red;
+    width: 5cm;
+}
+
+#div3 {
+    background-color: blue;
+    width: 5mm;
+}
+
+#div4 {
+    background-color: green;
+    width: 5px;
+}

@@ -1,0 +1,40 @@
+* {
+    background-color: yellow;
+    font-family: monospace;
+}
+
+h1 {}
+
+.class {
+    background-color: whitesmoke;
+    font-style: italic;
+}
+
+#unique {
+    background-color: blueviolet;
+}
+
+h2 {
+    background-color: red;
+    padding-block: 40px;
+}
+
+h3 {
+    background-color: aqua;
+}
+
+section h3 {
+    background-color: blue;
+}
+
+section>h3 {
+    background-color: brown;
+}
+
+div~h3 {
+    background-color: bisque;
+}
+
+h3+h3 {
+    background-color: cadetblue;
+}
