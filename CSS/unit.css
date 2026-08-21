@@ -22,3 +22,55 @@
     background-color: green;
     width: 5px;
 }
+
+/* html {
+    font-size: 32px;
+}
+
+body {
+    font-size: 16px;
+} */
+
+#h1 {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: dashed line-through gold;
+}
+
+#h2 {
+    font-family: monospace;
+    font-size: 1em;
+    text-align: end;
+    text-decoration: dotted underline green;
+}
+
+#h3 {
+    font-family: cursive;
+    font-size: 100%;
+    font-style: oblique;
+    text-align: justify;
+    text-decoration: double overline red;
+    text-transform: capitalize;
+    word-spacing: 20px;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 1px black;
+}
+
+#h4 {
+    font-family: serif;
+    font-size: 30px;
+    font-variant: normal;
+    text-align: right;
+    text-decoration: wavy line-through blueviolet;
+}
+
+#h5 {
+    font-family: fantasy;
+    font-size: 1cm;
+    text-align: start;
+    text-decoration: solid yellow;
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 3px silver;
+}
