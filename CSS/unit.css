@@ -74,3 +74,13 @@ body {
     letter-spacing: 5px;
     text-shadow: 5px 5px 3px silver;
 }
+
+section {
+    height: 100px;
+    width: 100px;
+    border: 2px black;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 100px;
+    box-shadow: 3px 4px 6px rgb(225, 255, 0), -3px -4px 6px rgb(255, 0, 0);
+}
