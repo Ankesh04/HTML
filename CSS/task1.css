@@ -32,7 +32,9 @@
     box-sizing: border-box;
 } */
 
-section {
+/* **************** */
+
+/* section {
     height: 450px;
     width: 550px;
     text-align: center;
@@ -75,4 +77,67 @@ button {
     background-color: blue;
     border: none;
     border-radius: 15px;
+} */
+
+/* ****************** */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body>section {
+    background-color: skyblue;
+    height: 100vh;
+    padding-top: 75px;
+}
+
+body>section>div {
+    margin: auto;
+    background-color: white;
+    height: 80%;
+    width: 20%;
+    border-radius: 35px;
+    padding: 25px;
+}
+
+#bgimg {
+    background-image: url(./me.png);
+    height: 225px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: auto;
+    background-position: top center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#blur2,
+#blur1 {
+    background-color: lightgray;
+    height: 25px;
+    border-radius: 50px;
+    margin: 25px auto;
+}
+
+#blur1 {
+    width: 80%;
+}
+
+#blur2 {
+    width: 60%;
+}
+
+button {
+    background-color: rgb(255, 115, 0);
+    color: white;
+    font-size: 32px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 15px;
+    border: none;
 }
