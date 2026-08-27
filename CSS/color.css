@@ -1,0 +1,47 @@
+div {
+    height: 100px;
+    width: 100vw;
+}
+
+#div1 {
+    /* color name */
+    background-color: aqua;
+}
+
+#div2 {
+    /* rgb color */
+    background-color: rgb(10, 30, 40);
+}
+
+#div3 {
+    /* rgba color */
+    background-color: rgba(10, 30, 40, 0.5);
+}
+
+#div4 {
+    /* hue saturation% and light% */
+    background-color: hsl(40, 60%, 70%);
+}
+
+#div5 {
+    /* hue saturation% and light% with transparency */
+    background-color: hsla(11, 94%, 42%, 0.323);
+}
+
+#div6 {
+    /* hexadecimal */
+    background-color: #8d3030;
+}
+
+#div7 {
+    /* hexadecimal with alpha value */
+    background-color: #2b8d13a2;
+}
+
+section {
+    border: 2px solid;
+    height: 1080px;
+    background-image: url(./photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
