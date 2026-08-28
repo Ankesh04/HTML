@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 100vh;
+}
+
+.div1 {
+    background: linear-gradient(red, yellow);
+}
+
+.div2 {
+    background: linear-gradient(red, yellow, blue, green);
+}
+
+.div3 {
+    background: linear-gradient(to left, blue, aqua);
+}
+
+.div2 {
+    background: linear-gradient(to right, black, darkblue, black);
+}
+
+.div4 {
+    background: linear-gradient(30deg, black, darkblue, black);
+}
+
+.div5 {
+    background: linear-gradient(to right bottom, yellow, green, blue);
+}
+
+.div6 {
+    background: linear-gradient(to right, yellow 9%, green 50%, blue);
+}
+
+.div7 {
+    background: radial-gradient(yellow 9%, green 50%, blue);
+}
+
+.div8 {
+    background: radial-gradient(circle, red, yellow, blue);
+}
+
+.div9 {
+    background: radial-gradient(ellipse, black,
+            darkblue,
+            black);
+    /*ellipse by defalut*/
+}
+
+.div10 {
+    background: radial-gradient(circle at left, red 5%, orange 15%, yellow 30%, white 50%, lightblue);
+}
+
+.div11 {
+    background: radial-gradient(circle at left top, red 10%, orange 13%, yellow 19%, white 30%, transparent 60%),
+        radial-gradient(circle at center, blue 4%, lightblue 1%, black 7%, transparent 30%),
+        radial-gradient(circle at right bottom, gray 3%, lightblue 4%, black 20%, black);
+}
+
+.div12 {
+    background: conic-gradient(red, blue, orange, yellow);
+    /*straight line in the top middle*/
+}
+
+.div13 {
+    background: conic-gradient(red, blue, orange, yellow, red);
+    /*mix it with first color*/
+}
+
+.div14 {
+    background: conic-gradient(from 45deg, red, blue, yellow, green);
+}
+
+.div15 {
+    background: conic-gradient(from 45deg at top left, red, blue, yellow, green);
+}
