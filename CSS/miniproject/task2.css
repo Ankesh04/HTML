@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: yellow;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 200px;
+
+}
+
+#span {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+span {
+    padding: 40px;
+}
+
+span:hover {
+    background-color: rgb(154, 152, 152);
+}
+
+
+table {
+    width: 100%;
+    margin-top: 50px;
+    /* margin: 50px auto; */
+    box-sizing: border-box;
+}
+
+td {
+    height: 390px;
+    background-size: cover;
+    align-items: center;
+    /* background-repeat: no-repeat; */
+}
+
+#img1 {
+    background-image: url(./manali.jpg);
+}
+
+#img2 {
+    background-image: url(./rock_garden.jpg);
+}
+
+#img3 {
+    background-image: url(./outside.jpg);
+}

@@ -78,3 +78,11 @@ div {
 .div15 {
     background: conic-gradient(from 45deg at top left, red, blue, yellow, green);
 }
+
+.div16 {
+    background: repeating-radial-gradient(red 0px, blue 10px, yellow 10px, green 10px);
+}
+
+.div17 {
+    background: repeating-linear-gradient(to right, red 10px, blue 10px, yellow 10px);
+}
