@@ -1,0 +1,83 @@
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px; */
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    gap: 20px;
+    /* controls grid gutter */
+    /* padding: 20px; */
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#div1 {
+    /* top left corner to bottom right corner */
+    background-color: aqua;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#div2 {
+    background-color: red;
+    /* to center */
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#div3 {
+    background-color: yellow;
+    /* to right top corner */
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#div4 {
+    background-color: greenyellow;
+    /* to center right  */
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#div5 {
+    background-color: blue;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#div6 {
+    background-color: blueviolet;
+}
+
+#div7 {
+    background-color: chocolate;
+}
+
+#div8 {
+    background-color: pink;
+
+}
+
+#div9 {
+    background-color: gray;
+}
