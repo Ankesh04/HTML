@@ -59,7 +59,7 @@ div {
 
 
 /* new */
-/* bento grid */
+/* bento grid for practice */
 section {
     display: grid;
     grid-template-columns: repeat(4, 300px);
