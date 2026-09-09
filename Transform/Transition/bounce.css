@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 98vh;
+    display: grid;
+    place-content: center;
+    position: relative;
+}
+
+#ball {
+    height: 200px;
+    width: 200px;
+}
+
+#mainball {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: radial-gradient(circle at top left, black 25px, darkred 50px, red);
+}
+
+body:hover #mainball {
+    transition: all 2s linear;
+    transform: translateY(235px);
+}
+
+body:hover #ball {
+    transition: all 0.5s linear 2.2s;
+    transform: translateY(-235px);
+    width: 250px;
+    height: 150px;
+}
+
+#ground {
+    height: 15px;
+    width: 500px;
+    bottom: 20px;
+    left: 50vw;
+    background-color: green;
+    position: absolute;
+    transform: translate(-50%, 0);
+}
