@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 98vh;
+    display: grid;
+    place-content: center;
+}
+
+#ground {
+    /* width: 400px;
+    height: 10px; */
+    /* background-color: green; */
+    /* border: 2px solid darkgreen; */
+    position: absolute;
+    bottom: 10px;
+    left: 37%;
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 70px solid red;
+}
+
+#ball1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50% 0% 0% 50%;
+    background-color: red;
+    border: darkred;
+    position: relative;
+    display: inline-block;
+    animation: bounce1 4s linear 0s infinite;
+}
+
+#ball2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 0% 50% 50% 0%;
+    background-color: red;
+    border: darkred;
+    position: relative;
+    display: inline-block;
+    animation: bounce2 4s linear 0s infinite;
+}
+
+/* .ball {
+    animation: bounce 4s linear 0s infinite;
+} */
+
+/* body:has(#ground:hover) #ball{
+    background-color:black;
+} */
+/* for hovering the element must be in the parent (like body) */
+
+@keyframes bounce1 {
+    0% {
+        bottom: 0px;
+    }
+
+    48% {
+        bottom: -340px;
+        height: 50px;
+        width: 50px;
+    }
+
+    50% {
+        height: 40px;
+        width: 60px;
+    }
+
+    52% {
+        height: 50px;
+        width: 50px;
+
+    }
+
+    100% {
+        right: 100px;
+    }
+}
+
+@keyframes bounce2 {
+    0% {
+        bottom: 0px;
+    }
+
+    48% {
+        bottom: -340px;
+        height: 50px;
+        width: 50px;
+    }
+
+    50% {
+        height: 40px;
+        width: 60px;
+    }
+
+    52% {
+        height: 50px;
+        width: 50px;
+
+    }
+
+    100% {
+        left: 100px;
+    }
+}
